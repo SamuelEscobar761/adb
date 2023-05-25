@@ -9,7 +9,7 @@ La base de datos "Recop" es utilizada por la aplicación "Recop" para gestionar 
 ## Diagrama Propuesto de la Base de Datos
 Aquí se presenta el diagrama de la base de datos propuesta:
 
-(https://raw.githubusercontent.com/SamuelEscobar61/adb/main/diagramaUML.png)
+(https://github.com/SamuelEscobar761/adb/blob/main/diagrama%20UML.png)
 
 ## Requisitos Técnicos
 Para levantar localmente la base de datos y utilizarla en el entorno de desarrollo, se requieren los siguientes componentes:
