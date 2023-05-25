@@ -21,7 +21,7 @@ Para levantar localmente la base de datos y utilizarla en el entorno de desarrol
 ## Cómo Levantar Localmente la Base de Datos
 
 1. Clonar el repositorio de GitHub: 
-git clone https://github.com/SamuelEscobar761/adb.git
+git clone https://github.com/SamuelEscobar761/adb.git --branch master --single-branch
 
 2. Acceder a la carpeta del proyecto:
 cd adb
