@@ -11,7 +11,6 @@ services:
     ports:
       - 3008:3306
     volumes:
-      - ./data:/var/lib/mysql
       - ./my.cnf:/etc/mysql/my.cnf
     networks:
       - db-network
@@ -30,7 +29,6 @@ services:
     ports:
       - 3009:3306
     volumes:
-      - ./data-slave1:/var/lib/mysql
       - ./my.cnf:/etc/mysql/my.cnf
     depends_on:
       - db-master
@@ -51,7 +49,6 @@ services:
     ports:
       - 3010:3306
     volumes:
-      - ./data-slave2:/var/lib/mysql
       - ./my.cnf:/etc/mysql/my.cnf
     depends_on:
       - db-master
